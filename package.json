@@ -1,0 +1,56 @@
+{
+  "name": "@ali/pi",
+  "version": "0.0.1",
+  "description": "pi",
+  "main": "src/p/index/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev node fuse",
+    "mock": "node mock/*"
+  },
+  "keywords": [
+    "react-pc-normal-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:gourd/pi.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "author": {
+    "name": "jianping.xwh"
+  },
+  "maintainers": [
+    {
+      "name": "kpm_admin",
+      "email": "kpm_admin@taobao.com"
+    }
+  ],
+  "upx": {
+    "zebra": true,
+    "screenshot": "",
+    "width": [],
+    "type": "component",
+    "terminalType": "pc"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "object-assign": "^4.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "node-sass":"^4.5.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "fuse-box": "^2.0.0",
+    "run-sequence": "^1.2.2",
+    "source-map": "^0.5.6",
+    "uglify-js": "^3.0.15"
+  }
+}
